@@ -497,7 +497,7 @@ img{
 }
 .child13{
     width: 90vw;
-    height: 50px;
+    height: 40px;
     border-bottom: 2px solid gray;
     display: flex;
     justify-content: space-between;
@@ -531,7 +531,7 @@ img{
 }
 .child14{
     width: 90vw;
-    height: 34rem;
+    height: 35rem;
     border-bottom: 2px solid black;
     display: flex;
     justify-content: space-around;
@@ -541,7 +541,7 @@ img{
 
 .child_in6{
     width: 300px;
-    height: 28rem;
+    height: 27rem;
     text-align: center;
 }
 .mobile2{
@@ -556,7 +556,7 @@ img{
 .quantity{
     float: left;
     margin-left: 20px;
-   
+    
     font-size:18px;
     font-weight: bold;
 }
