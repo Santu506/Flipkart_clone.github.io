@@ -34,7 +34,7 @@ body{
 form{
     display: flex;
     /* justify-content: space-between; */
-    gap:5%;
+    gap:40px;
     width:80%;
     height: 30px;
     
@@ -44,7 +44,7 @@ form{
     background-color: #fff;
 }
 .input1{
-    width: 30rem;
+    width: 40rem;
     border-style: none;
     height: 27px;
     
@@ -304,7 +304,7 @@ img{
     
 }
 .child5{
-    width: 27rem;
+    width: 28rem;
     height: 7rem;
     border-radius: 10px;
     padding: 10px;
@@ -492,15 +492,15 @@ img{
     font-size: 15px;
 }
 .main2{
-    /* width: 100vw; */
+    margin: 0 13rem;
     /* height: 244vh; */
-    background-color: #aca9a9;
+    /* background-color: #aca9a9; */
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 .perent7{
-    width: 90vw;
+    width: 50rem;
     /* height: 75rem; */
     /* margin:0 4%; */
     background-color: #e1e4e7;
@@ -508,7 +508,7 @@ img{
     
 }
 .child13{
-    width: 90vw;
+    width: 50rem;
     height: 50px;
     border-bottom: 2px solid gray;
     display: flex;
@@ -536,14 +536,14 @@ img{
     
 }
 .span23{
-    font-size: 14px;
+    font-size: 20px;
 }
 #input2{
     width: 60%;
     height: 20px;
 }
 .child14{
-    width: 90vw;
+    width: 50rem;
     height: 34rem;
     border-bottom: 2px solid black;
     display: flex;
@@ -634,7 +634,7 @@ img{
 }
 
 .child15{
-    width: 90vw;
+    width: 50rem;
     height: 45px;
     display: flex;
     justify-content: space-between;
@@ -653,7 +653,7 @@ img{
     margin-right: 8px;
 }
 .parent8{
-    width: 86vw;
+    width: 50rem;
     height: 350px;
     display: flex;
     justify-content: space-around;
@@ -676,7 +676,6 @@ img{
     height: 40px;
     box-shadow: 2PX 2PX 3PX  rgb(176, 174, 174);
     border-radius: 10px;
-    width: 99%;
 }
 .span34{
         display: block;
@@ -694,7 +693,6 @@ img{
     margin: 7px;
     box-shadow: 2PX 2PX 3PX  rgb(129, 127, 127);
     border-radius: 6px;
-    width: 40%;
 }
 .button2{
     width: 9rem;
@@ -747,7 +745,6 @@ img{
 }
 .span38{
     font-size: 20px;
-    display: block;
 }
 .child_in10{
     border-bottom: none;
