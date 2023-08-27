@@ -24,6 +24,8 @@ body{
     color: #fff;
     font-style: italic;
     width: 250px;
+    height:60px;
+    border:2px solid red;
     text-align: right;
 }
 #plus{
@@ -40,7 +42,7 @@ form{
     
 }
 
-.search{
+/* .search{
     background-color: #fff;
 }
 .input1{
@@ -48,6 +50,25 @@ form{
     border-style: none;
     height: 27px;
     
+} */
+.bg-body-tertiary{
+width: 700px;
+}
+form {
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 9px;
+    width: 100%;
+    height: 37px;
+}
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    --bs-gutter-x: 0.5rem;
+    --bs-gutter-y: 0;
+    width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * .5);
+    padding-left: calc(var(--bs-gutter-x) * .5);
+    margin-right: auto;
+    margin-left: auto;
 }
 .icon{
     padding-top: 7px;
@@ -56,8 +77,9 @@ form{
 
 #button1{
 width: 100px;
-background-color: blue;
-color:white;
+height: 40px;
+background-color: rgb(228, 228, 234);
+color:rgb(10, 30, 244);
 }
 #select1{
     background-color: blue;
@@ -285,7 +307,7 @@ img{
     text-align: center;
     display: block;
     font-size: 20px;
-    margin-top: 1rem;
+    margin-top: 0rem;
     color: antiquewhite;
 
 }
@@ -426,7 +448,7 @@ img{
     background-color: #e1e4e7  ;
 }
 .child11{
-    height: 390px;
+    height: 480px;
     width: 240px;
     background-color: #c8c5c5;
     box-shadow: 4px 4px 4px gray;
@@ -437,6 +459,9 @@ img{
 }
 .span15{
     font-size: 1.2rem;
+}
+ol, ul {
+    padding-left: 0rem;
 }
 .list1{
     list-style-type: none;
@@ -450,13 +475,14 @@ img{
 }
 
 .child12{
-    /* width: 74vw; */
-    /* height: 450px; */
-    
+    width: 80%;
+    height: 490px; 
+    overflow: auto;
     display: flex;
     /* justify-content: space-between; */
     gap: 30px;
     align-items: center;
+    
 }
 .child_in4{
     width: 230px;
@@ -655,7 +681,7 @@ img{
 }
 .parent8{
     width: 50rem;
-    height: 350px;
+    height: 370px;
     display: flex;
     justify-content: space-around;
     padding: 20px;
@@ -703,7 +729,7 @@ img{
 }
 .child17{
     /* width: 20rem; */
-    height: 310px;
+    height: 330px;
     background-color: #fff;
     padding: 10px;
     border-radius: 10px;
@@ -753,4 +779,7 @@ img{
 }
 .span39{
     font-size: 30px;
+}
+.w-100{
+    height: 300px;
 }
