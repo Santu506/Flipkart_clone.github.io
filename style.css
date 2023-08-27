@@ -680,7 +680,7 @@ ol, ul {
 }
 .parent8{
     width: 50rem;
-    height: 370px;
+    height: 510px;
     display: flex;
     justify-content: space-around;
     padding: 20px;
@@ -692,7 +692,7 @@ ol, ul {
 .child16{
     /* width: 50rem; */
     width: 80%;
-    height:330px;
+/*     height:330px; */
     border-radius: 10px;
     background-color: #fff;
     box-shadow: 5px 5px 6px grey;
@@ -728,7 +728,7 @@ ol, ul {
 }
 .child17{
     /* width: 20rem; */
-    height: 330px;
+/*     height: 330px; */
     background-color: #fff;
     padding: 10px;
     border-radius: 10px;
